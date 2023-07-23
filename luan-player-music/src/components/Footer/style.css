@@ -1,0 +1,90 @@
+
+.footer-container{
+    height: 97px;
+    display: flex;
+    align-items: center;    
+    background-image: linear-gradient(to bottom, #029ac9, #010fd1);
+  
+    border-top: 1px solid #000552;
+  }
+  .music-information{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+  
+    color: #000;
+  }
+  
+  .footer-container .music-information h1{
+    font-family: "roboto", sans-serif;
+    font-style: bold;
+    font-size: 22px;    
+  }
+  
+  .footer-container .music-information h2{
+    font-family: "roboto", sans-serif;
+    font-style: bold;
+    font-size: 14px;
+  }
+
+  .footer-container .player{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 32%;
+    position: absolute;
+  }
+
+  .footer-container button{
+    background: none;
+    cursor: pointer;
+    border-style: none;
+  }
+  
+  .footer-container .player .player-icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 110px;
+    
+  }
+  
+  .footer-container .timer{
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .footer-container .timer p{
+    font-size: 14px;
+    color: #fff;
+  }
+  
+  .footer-container .playtime {
+    background: #CCC3C3;
+    min-width: 400px;
+    height: 5px;
+    cursor: pointer;
+  }
+
+  .footer-container .playtime .interval{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color:#029ac9;
+    height: 5px;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+  }
+
+  .footer-container .playtime .interval .progress{
+    background-color: #010fd1;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: absolute;
+  }
