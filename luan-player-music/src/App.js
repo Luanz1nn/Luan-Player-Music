@@ -1,5 +1,5 @@
 import "./App.css";
-import teste from './assets/musica.png';
+import iconLogo from './assets/musica (4).png';
 import Image from "./assets/Luan.jpg";
 import Playlist from "./components/playlist";
 import musics from "./musics";
@@ -20,7 +20,7 @@ function App() {
       <header>
         <div className="logo">
         <span>Luan</span>
-        <img src={teste} alt="logo"/>
+        <img src={iconLogo} alt="logo"/>
         <span>Player</span>
         </div>
         <div className="user">

@@ -8,7 +8,7 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
-  background-image: linear-gradient(to bottom, #029ac9, #010fd1);
+  background-image: linear-gradient(to bottom, #0c0505, #544e4e);
 }
 
 header {
@@ -16,7 +16,7 @@ header {
   justify-content: space-between;
   padding: 5px 30px;
 
-  border-bottom: 1px solid #033aa0;
+  border-bottom: 1px solid #6a6363;
 }
 
 header .logo {
@@ -24,18 +24,20 @@ header .logo {
   align-items: center;
   justify-content: center;
   gap: 5px;
+  
 }
 
 header .logo span {
   font-family: "roboto", sans-serif;
   font-style: bold;
-  font-size: 25px;
+  font-size: 30px;
+  color: #fff;
   padding-bottom: 15px;
 }
 
 header .logo img {
-  width: 70px;
-  height: 70px;
+  width: 62px;
+  height: 62px;
 }
 
 .user {
@@ -49,14 +51,14 @@ header .logo img {
   height: 40px;
   border-radius: 50%;
 
-  border: 2px solid #033aa0;
+  border: 2px solid #6a6363;
 }
 
 .user h1 {
   font-family: "roboto", sans-serif;
   font-style: bold;
   font-size: 14px;
-  color: #000;
+  color: #fff;
 }
 
 main {
@@ -72,8 +74,8 @@ main h1{
   font-size: 22px;
   padding-bottom: 15px;
   
-  color: #000;
-  border-bottom: 1px solid #033aa0;
+  color: #fff;
+  border-bottom: 1px solid #6a6363;
 }
 
 main .playlist-container{
